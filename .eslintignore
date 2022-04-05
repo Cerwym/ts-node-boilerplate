@@ -1,0 +1,2 @@
+# Don't lint the output directory, that'd be lame
+dist
