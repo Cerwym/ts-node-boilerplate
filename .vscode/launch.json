@@ -1,0 +1,17 @@
+{
+    "configurations": [{
+        "env": {
+            "TS_NODE_PROJECT": "tsconfig.json"
+        },
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "runtimeArgs": [
+            "-r",
+            "ts-node/register"
+        ],
+        "args": [
+            "${workspaceFolder}/src/main.ts"
+        ]
+    }],
+}
